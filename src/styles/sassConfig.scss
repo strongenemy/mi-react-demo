@@ -1,0 +1,25 @@
+// 定义颜色变量
+$primary-color: #5b21b6;
+$secondary-color: #4f46e5;
+$text-color: #333;
+
+// 定义字体
+$base-font-family: 'Arial', sans-serif;
+$heading-font-family: 'Helvetica', sans-serif;
+
+// 定义混合
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 全局样式
+body {
+  font-family: $base-font-family;
+  color: $text-color;
+}
+
+h1, h2, h3 {
+  font-family: $heading-font-family;
+}
