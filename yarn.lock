@@ -222,7 +222,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.24.0"
 
-"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2", "@babel/runtime@^7.23.6", "@babel/runtime@^7.23.9", "@babel/runtime@^7.24.4", "@babel/runtime@^7.24.5":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2", "@babel/runtime@^7.23.6", "@babel/runtime@^7.23.9", "@babel/runtime@^7.24.4", "@babel/runtime@^7.24.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
   version "7.24.5"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.24.5.tgz"
   integrity sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==
@@ -315,6 +315,1403 @@
   resolved "https://registry.npmmirror.com/@eslint/js/-/js-8.57.0.tgz"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
+"@hi-ui/alert@^4.1.4":
+  version "4.1.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/alert/-/alert-4.1.4.tgz"
+  integrity sha512-yY4UoMbg98XQrRC1PMjJrWEGzYAS50KbvklO4+kXXrpGtwAS5KiqfHYyT17knqkje3aWYohr2S+4DWcYqrTIOw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icon-button" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-timeout" "^4.0.4"
+
+"@hi-ui/anchor@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/anchor/-/anchor-4.0.9.tgz"
+  integrity sha512-S7Z8WfigcaoIKhUJtm7qDO5slvUt2fn16qeiaChcfjUDw1TWqGrtcUh04oG7m/4tWCViIz9jkbuCcQCs8bJHmw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-registry" "^4.0.5"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/array-utils@^4.0.4", "@hi-ui/array-utils@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/array-utils/-/array-utils-4.0.5.tgz"
+  integrity sha512-OnRxH/a5wwIv1mpFqsj3ORrYhompneyUrelgnthB7SEZtbIevKGX8jpnjCFP0gfPkZObTXGQq24cBC0FnMBtlg==
+  dependencies:
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/avatar@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/avatar/-/avatar-4.0.8.tgz"
+  integrity sha512-7LD75dPZLOl6RE1GnIqSRaPYrV5dSnwAaMHJ+Jbez4o1mn+gmixlTTe9Xa/hqtY8MbMpaZqL1p58w0v34MIS6Q==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/back-top@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/back-top/-/back-top-4.0.8.tgz"
+  integrity sha512-4C9WZGq7j7dgYW7lFbYxE/fHxrDwHwHXMY0SNuJZzHzPcDXQAJHU3H3INe+lrPPg6PYG+TX1B0e25qgDtVo2dA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/tooltip" "^4.0.11"
+    "@hi-ui/use-did-mount" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-scroll" "^4.0.5"
+    "@tweenjs/tween.js" "^18.6.4"
+
+"@hi-ui/badge@^4.0.10":
+  version "4.0.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/badge/-/badge-4.0.10.tgz"
+  integrity sha512-zOvtw4lDUanvvPeyMy8Ws5uN+IqVNjbJKOe8OSvEFkBe9kfR4hJr2re2X0uu0+gzvUO//aCc/lFYbTNOQkfLCw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/breadcrumb@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/breadcrumb/-/breadcrumb-4.0.8.tgz"
+  integrity sha512-rX8DUrm8lhfFoSNC8e/BOft+eTCRN0dq7h5KwHo/OdlUKv+D71nWFTjWsufjRmruRPqy75iUimZk15y4gg6mLw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/button@^4.0.10":
+  version "4.0.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/button/-/button-4.0.10.tgz"
+  integrity sha512-K5cVZ/Xa8cfhgiKYXjXE+iqj2IqtYAwF0FoTNxGdVwIXHwAsYxb7PD5KqqTv+zu4LS7ASZB+DkRoH3NwmV51pA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/card@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/card/-/card-4.0.9.tgz"
+  integrity sha512-bkcE9PpPnKQMJ/Moyv9vkpaQYQflt1bxT67VmUDQ8BG7AkzFK4tn6LcTzikwhToTYkjZk8EkaetjC2hhNkwyZQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/loading" "^4.2.1"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/carousel@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/carousel/-/carousel-4.1.1.tgz"
+  integrity sha512-uWlhV4wKOc6dtAhx4YOPBHrroPAyhge9uOpe3fBKi3mk7kaJxKent7QtETGyZosP+To8u+UpnAkKTkRMAQJP9w==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+
+"@hi-ui/cascader@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/@hi-ui/cascader/-/cascader-4.2.0.tgz"
+  integrity sha512-laSrWn4oNjo5uIYfjdWQ4TA1SnWAQ3PG+c3rCy+d+zw1PUFtjl/nJacGoekoElBAi71P5letB02sJKRjS4MINQ==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/spinner" "^4.0.9"
+    "@hi-ui/tree-utils" "^4.1.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check-state" "^4.0.4"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-search-mode" "^4.1.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/check-cascader@^4.2.7":
+  version "4.2.7"
+  resolved "https://registry.npmmirror.com/@hi-ui/check-cascader/-/check-cascader-4.2.7.tgz"
+  integrity sha512-ZasHRJChkkVNgSLrki5b/pVj6JZqWtQb6XdlyNINi150B9roiA5GJNkgf5+ggiH5B2gbZzgROwMq48QQG2KshA==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/spinner" "^4.0.9"
+    "@hi-ui/tag-input" "^4.1.1"
+    "@hi-ui/times" "^4.0.4"
+    "@hi-ui/tree-utils" "^4.1.6"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-outside-click" "^4.0.4"
+    "@hi-ui/use-search-mode" "^4.1.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/check-select@^4.4.3":
+  version "4.4.3"
+  resolved "https://registry.npmmirror.com/@hi-ui/check-select/-/check-select-4.4.3.tgz"
+  integrity sha512-kFPEGYoGqi11bVQWN2bKZ7UOplV3cbenJKRWlnB2Xf4RJpmoKlK8FpGXBx5ZshoUM8mob9RjPK5LQoI408Sa9w==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/tag-input" "^4.1.1"
+    "@hi-ui/times" "^4.0.4"
+    "@hi-ui/tree-utils" "^4.1.6"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-children" "^4.0.4"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-search-mode" "^4.1.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    "@hi-ui/virtual-list" "^4.0.8"
+
+"@hi-ui/check-tree-select@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/check-tree-select/-/check-tree-select-4.4.1.tgz"
+  integrity sha512-tIxgylHBrhmjvl9MxIXn3P4Bob8O8qZHLCOTf8YUhpseNCei9S/nubml4YqpxRTWNUSqcmcQmjWlCyWwRlAaKg==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/tag-input" "^4.1.1"
+    "@hi-ui/tree" "^4.5.10"
+    "@hi-ui/tree-utils" "^4.1.6"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-search-mode" "^4.1.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/checkbox@^4.0.10":
+  version "4.0.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/checkbox/-/checkbox-4.0.10.tgz"
+  integrity sha512-yIkntsx8Q4cv9oqj6rMTt8XVAIQzEOH9cFKoKHbDoI9FjqZn7gAGNiQyRN0nJQPReqGcyk+yipEIt+pnoHePTg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/classname@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/classname/-/classname-4.0.5.tgz"
+  integrity sha512-pYrWNOzTEIoI65GY+apvLWcEnwdiIiB0TCL82ib/Y8mR3oQHaF0IK+EpHTtEUH0KfWi/29e3idGanOzMN9xBAQ==
+  dependencies:
+    classnames "^2.3.1"
+
+"@hi-ui/collapse@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.npmmirror.com/@hi-ui/collapse/-/collapse-4.1.6.tgz"
+  integrity sha512-vLX4+G1myFtfc4TKVMueLqTFwANQGtVMpC6NOsl5J1GAv1Z4eksBXpA6mDUr8EGK4GT+0b2Rs0vDefO97DFYuQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/container@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/container/-/container-4.1.1.tgz"
+  integrity sha512-7S0u88uzYUcHELDsmuqfBOmpEAkDzdaN2gL+3hFrnkyEummP9JPl5DUCb8pZakrpHh0rbb9PjNOaf2W/5w2sdA==
+
+"@hi-ui/core-css@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/core-css/-/core-css-4.1.5.tgz"
+  integrity sha512-bmR3gnMmh6dvADO7FKVgXsPUpOABkwh5EAkxVuOelImfckjc/jLGDFHw00RfALNbEjfHpTKY7ShGXF4wp154zQ==
+
+"@hi-ui/core@^4.0.8", "@hi-ui/core@>=4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/core/-/core-4.0.8.tgz"
+  integrity sha512-sg3ZAbMb5kC38RTew+QNmtT8WMw7NSKC+idV91maJQ1tBvvsUESUth+5wYnlO05xzei0RDzdyHxbI3Gjp2LuJg==
+  dependencies:
+    "@hi-ui/core-css" "^4.1.5"
+    "@hi-ui/locale-context" "^4.0.8"
+
+"@hi-ui/counter@^4.1.9":
+  version "4.1.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/counter/-/counter-4.1.9.tgz"
+  integrity sha512-sw/RdvhARLyxdqV00T7DD6d4+hr+SliTV990is8sA4clOVwjBYs1zYyLC2yjamkQlJm36QLe9COrJRgQTrxaMA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    number-precision "^1.5.0"
+
+"@hi-ui/date-picker@^4.6.2":
+  version "4.6.2"
+  resolved "https://registry.npmmirror.com/@hi-ui/date-picker/-/date-picker-4.6.2.tgz"
+  integrity sha512-TTHsIqYIlH9wMmh5jLV0AwlcRqyNTX+AsL1U6vDMW3x2h0BS9ONcaEWBBrXWwbOLUGpHfKoRCA14TitRZ/JY2Q==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/object-utils" "^4.0.4"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/time-picker" "^4.0.14"
+    axios "^1.5.0"
+    moment "^2.29.4"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/descriptions@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.npmmirror.com/@hi-ui/descriptions/-/descriptions-4.3.0.tgz"
+  integrity sha512-CRsUl31ZuSWftOhudscDj4kAUywDlXu8x01rw5Cra49yEzy/G9MndQyWutRq1XsreYCZGTEyFyrRLA69u6YHwQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/dom-utils@^4.0.7":
+  version "4.0.7"
+  resolved "https://registry.npmmirror.com/@hi-ui/dom-utils/-/dom-utils-4.0.7.tgz"
+  integrity sha512-rMFfjVkEhDv+Cc84V/IzkCCpyea7yzfifIquRLCOZDcu3fvLmMDdYihkGoVFFXYrrFDleS1otlYeJwCdTMNjWA==
+  dependencies:
+    "@hi-ui/env" "^4.0.4"
+
+"@hi-ui/drawer@^4.1.4":
+  version "4.1.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/drawer/-/drawer-4.1.4.tgz"
+  integrity sha512-U316yVdP8cnqLax1NPG5e3NhxX/0A4BsZF9OK+ysbn49zZE5gnlC5n1c3cQequfH4bKwbWcj/KMnsBmixC+EIg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icon-button" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/modal" "^4.1.1"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-scroll-lock" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    react-transition-group "4.4.2"
+
+"@hi-ui/dropdown@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/dropdown/-/dropdown-4.1.5.tgz"
+  integrity sha512-8KoB+kKwsg2r77QK5q+CzLcsqVHaYD0YDMrb7g5wfa4H2A4jUK2hG9iV1sLCzLArSnw0IN30XGtWVBJ/l5LdvQ==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-timeout" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-unmount-effect" "^4.0.4"
+
+"@hi-ui/ellipsis-tooltip@^4.1.8":
+  version "4.1.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/ellipsis-tooltip/-/ellipsis-tooltip-4.1.8.tgz"
+  integrity sha512-fMDoMPObF3KkulbP7UNJ4gdXJRdW/0vOWC0TmGHbKOEbH4H1NjEE3vX2NNn1C1z1BUlTmniSvEUwyJPdQhSv0Q==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/tooltip" "^4.0.11"
+
+"@hi-ui/empty-state@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/empty-state/-/empty-state-4.1.1.tgz"
+  integrity sha512-ciJjqAQJmkJkzy6wlxz2vEdARRArNTx2r3B9XXjyI79BQK+GUl5MTyYMDK+s40WGsRnMZLtDcz7KGGQMkNp+8A==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/env@^4.0.4", "@hi-ui/env@^4.0.5":
+  version "4.0.6"
+  resolved "https://registry.npmmirror.com/@hi-ui/env/-/env-4.0.6.tgz"
+  integrity sha512-hBFbnv09LGeAkgNjwrDWZEvESOgM1vk6UQ3QkCXmVybKxNAs8qJSadzbZrdGBgmrPZPAlf8QqtAiFtacydvwmQ==
+  dependencies:
+    "@hi-ui/style-inject" "^4.0.0"
+    inject-head-style "^1.0.0"
+    style-inject "^0.3.0"
+
+"@hi-ui/file-select@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/file-select/-/file-select-4.0.8.tgz"
+  integrity sha512-uR+XyDL6CnCRIi09a4opjXKTHsYn3yQr/bRLH7knywY2LnhInLfVUbPdOG+58sFRFvlsu4hHx43awJXiNY+tYg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/filter@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/filter/-/filter-4.1.5.tgz"
+  integrity sha512-Mg3Ga8bfnx9YOf08T+X7FExFzF6Lyp7lHyeMzn+61Rvd25MnKfiH3MRM6cADU/AmhzL/uKMQ36qmszUsxWGDFw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/form@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/@hi-ui/form/-/form-4.2.0.tgz"
+  integrity sha512-XiJ51LCMViSO4+qqGwfhuhVKG/dXJmTgAWIuJrboXg/8fOxlog0v8HG0DodY6b5n2fr788/FbyWJXPG4UhhGvQ==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/object-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    async-validator "^4.0.7"
+
+"@hi-ui/func-utils@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/func-utils/-/func-utils-4.0.4.tgz"
+  integrity sha512-YaRxaFK12oNCPefYZLTKUr8RjuzXzRof78RyI2bn7gc7s7EoqluYh7t0yyoppvOAfF0zSNxcumYORBLrkggV/g==
+  dependencies:
+    "@hi-ui/object-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/grid@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/grid/-/grid-4.0.9.tgz"
+  integrity sha512-UGrrdV90D7QW1nojseqwrTRvN/lBbddpBB2hgGPe5ul+B8FKbO8NlrWKJCrsXy/3axmL93tBRUSrizXQE/Ca6w==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/highlighter@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/highlighter/-/highlighter-4.0.9.tgz"
+  integrity sha512-0VnaroVd8+HX7smYsMFOHC1aoBxcTJUV3t6disXSrVaC4+wRCWuWVTEOwBMEPoWm0m3snsjFDP4uhl1W5S95Sw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/hiui@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/hiui/-/hiui-4.5.9.tgz"
+  integrity sha512-u3uzczNs5NbWwzjSsua7T117Ln+pOTYvW3cBsLw2xkHATDUxUU3ZcZt3RF92l5HmUYEPfIsy270iJ22E+CNWJQ==
+  dependencies:
+    "@hi-ui/alert" "^4.1.4"
+    "@hi-ui/anchor" "^4.0.9"
+    "@hi-ui/avatar" "^4.0.8"
+    "@hi-ui/back-top" "^4.0.8"
+    "@hi-ui/badge" "^4.0.10"
+    "@hi-ui/breadcrumb" "^4.0.8"
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/card" "^4.0.9"
+    "@hi-ui/carousel" "^4.1.1"
+    "@hi-ui/cascader" "^4.2.0"
+    "@hi-ui/check-cascader" "^4.2.7"
+    "@hi-ui/check-select" "^4.4.3"
+    "@hi-ui/check-tree-select" "^4.4.1"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/collapse" "^4.1.6"
+    "@hi-ui/counter" "^4.1.9"
+    "@hi-ui/date-picker" "^4.6.2"
+    "@hi-ui/descriptions" "^4.3.0"
+    "@hi-ui/drawer" "^4.1.4"
+    "@hi-ui/dropdown" "^4.1.5"
+    "@hi-ui/ellipsis-tooltip" "^4.1.8"
+    "@hi-ui/empty-state" "^4.1.1"
+    "@hi-ui/filter" "^4.1.5"
+    "@hi-ui/form" "^4.2.0"
+    "@hi-ui/grid" "^4.0.9"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/input-group" "^4.0.7"
+    "@hi-ui/list" "^4.0.14"
+    "@hi-ui/loading" "^4.2.1"
+    "@hi-ui/menu" "^4.2.2"
+    "@hi-ui/message" "^4.0.8"
+    "@hi-ui/modal" "^4.1.1"
+    "@hi-ui/notification" "^4.1.4"
+    "@hi-ui/number-input" "^4.1.8"
+    "@hi-ui/pagination" "^4.0.15"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/pop-confirm" "^4.2.4"
+    "@hi-ui/popover" "^4.1.1"
+    "@hi-ui/preview" "^4.0.9"
+    "@hi-ui/progress" "^4.0.10"
+    "@hi-ui/provider" "^4.0.9"
+    "@hi-ui/radio" "^4.1.4"
+    "@hi-ui/rating" "^4.0.10"
+    "@hi-ui/result" "^4.0.8"
+    "@hi-ui/scrollbar" "^4.1.1"
+    "@hi-ui/search" "^4.0.14"
+    "@hi-ui/select" "^4.4.1"
+    "@hi-ui/slider" "^4.0.11"
+    "@hi-ui/space" "^4.0.11"
+    "@hi-ui/spinner" "^4.0.9"
+    "@hi-ui/stepper" "^4.0.8"
+    "@hi-ui/svg-icon" "^4.0.8"
+    "@hi-ui/switch" "^4.0.11"
+    "@hi-ui/table" "^4.5.3"
+    "@hi-ui/tabs" "^4.1.5"
+    "@hi-ui/tag" "^4.2.1"
+    "@hi-ui/textarea" "^4.1.7"
+    "@hi-ui/time-picker" "^4.0.14"
+    "@hi-ui/timeline" "^4.0.8"
+    "@hi-ui/tooltip" "^4.0.11"
+    "@hi-ui/transfer" "^4.0.14"
+    "@hi-ui/tree" "^4.5.10"
+    "@hi-ui/tree-select" "^4.1.5"
+    "@hi-ui/upload" "^4.2.2"
+    "@hi-ui/watermark" "^4.0.8"
+    "@hi-ui/zen-mode" "^4.0.8"
+
+"@hi-ui/icon-button@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/icon-button/-/icon-button-4.0.9.tgz"
+  integrity sha512-6gVwjf6eqWj2iAKU2M7Qj4GaPP4vXIDBs8YeSZAW6JH/N6DzL9PzJGGPy04yRC9UO457xTWoAjl+RDXXgXKqKQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/icons@^4.0.19":
+  version "4.0.19"
+  resolved "https://registry.npmmirror.com/@hi-ui/icons/-/icons-4.0.19.tgz"
+  integrity sha512-mwzFKjq51EmkrhSdaQn4lU/9nZa/hT8bhoMJRIILS9Y+PNe6hVYR77R1Y6FXzgZO+0PVzF6UQtsk2Ds1FwKEBg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/input-group@^4.0.7":
+  version "4.0.7"
+  resolved "https://registry.npmmirror.com/@hi-ui/input-group/-/input-group-4.0.7.tgz"
+  integrity sha512-AgWi/tFoYuLNShun4vfLLqPW0HbMFJw2burmxFf5WFypt7IdR7wJvizoSJ99i6jQFt6fHYmM8IG3Xgt56ooEbw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/input@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/input/-/input-4.1.1.tgz"
+  integrity sha512-+GrTBIIfFSKbqGnGiHyFcHlHm1r8aJmpmirPM5er2myx2++CqxgJsEwlvzvpa9S+h7sqYgbSXZ5n5V0UMfe4rw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/list@^4.0.14":
+  version "4.0.14"
+  resolved "https://registry.npmmirror.com/@hi-ui/list/-/list-4.0.14.tgz"
+  integrity sha512-IVAJl3lNDhyfWGXemUz/+ZcnZcLddt5z+RiI4pG5fuJy1yXj8rSK13ft38OXpElTUCk06aNlTJVux25BLFt2yw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/empty-state" "^4.1.1"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/pagination" "^4.0.15"
+
+"@hi-ui/loading@^4.1.3", "@hi-ui/loading@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/loading/-/loading-4.2.1.tgz"
+  integrity sha512-XPtwkXhmxcJF/WvcE9J18u6QQ0yCX4P0bvdI05JUXGUqwn8kjzeiiLGC/DOlXSmJep0S9oy/FdWRbhaBnQBLgg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/container" "^4.1.1"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/spinner" "^4.0.9"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-id" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/locale-context@^4.0.8":
+  version "4.0.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/locale-context/-/locale-context-4.0.10.tgz"
+  integrity sha512-P65XXhG83xi2oz+g5aTMnaeFL5Rk3PciEp55OHA3XRQOnr4h37+62UEvYlu5Q7ajVTEZ3cqh6jI+nCeqY6dALw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/object-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/menu@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.npmmirror.com/@hi-ui/menu/-/menu-4.2.2.tgz"
+  integrity sha512-xVSAablDLMQT1WBQ0gLsAjChp4mD+5rf1gf0XKcbcP3bS1BT0IQNZAxu94r0ABHgYYj6wEtjWt3hurzU+ikTOA==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/scrollbar" "^4.1.1"
+    "@hi-ui/times" "^4.0.4"
+    "@hi-ui/tooltip" "^4.0.11"
+    "@hi-ui/tree-utils" "^4.1.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-id" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-resize-observer" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/message@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/message/-/message-4.0.8.tgz"
+  integrity sha512-LKv2zGQiZACsRFsJa86AakOqGGdJGoSglZOEGeYGtLf7YUbJ4dsTwpUXnq0nIwFJ80Um+dYwM/ynn/79bYc7Qg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/toast" "^4.0.8"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/modal@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/modal/-/modal-4.1.1.tgz"
+  integrity sha512-PGrHUlOeKP0x9FKVEDvV/HpgDVYvT8rRumhv0Qs0MyuM2F1O68zmww3y0G3ivpHZoo+OMc6g1mZ6AEuW9Yf4yQ==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/container" "^4.1.1"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/icon-button" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-id" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-scroll-lock" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/notification@^4.1.4":
+  version "4.1.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/notification/-/notification-4.1.4.tgz"
+  integrity sha512-bqgkWOumo9fQlzEGBIFqP8D1K7QRLrRwFPp/yQ8RdGpCWGfV3xOQZIqsLzaSTgEJTbf6O0y/IwvHbt86CNYuyQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icon-button" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/toast" "^4.0.8"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/number-input@^4.1.8":
+  version "4.1.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/number-input/-/number-input-4.1.8.tgz"
+  integrity sha512-VBHUP5Ajjhymh0e5WJac32wW/fKdMPeoNpMnidsBfcXDqgDneFmFzTHWK05OLIZduDIxxV5/iyjpGTrRtvEHCw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/counter" "^4.1.9"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+
+"@hi-ui/object-utils@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/object-utils/-/object-utils-4.0.4.tgz"
+  integrity sha512-3Tuw3yZoH7QqOPABkjXQg76zY5WQOCAttbsR1BVGCN75n73C5RhsaiWyv20CZJE+mpuyjDuaOWMUEmaQG5+klg==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/pagination@^4.0.15":
+  version "4.0.15"
+  resolved "https://registry.npmmirror.com/@hi-ui/pagination/-/pagination-4.0.15.tgz"
+  integrity sha512-fu3jZO/yadxC19wFnU/7EtS3trh1wpBgGdO+Gk+iv+n3CEXVUiiTD7/klXHKQ1VBU5Y6NHR/L+fSVrGZxMlW9g==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/counter" "^4.1.9"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/select" "^4.4.1"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/picker@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.npmmirror.com/@hi-ui/picker/-/picker-4.1.6.tgz"
+  integrity sha512-B1tQuX0hfsh8qWnN24ssK43BMdJDKLSGtpuA0Sx7zqjP8sFMBlzuuIgLHV3g8Wpu38V4YSbK8JrjK0U1pondCQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/loading" "^4.2.1"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/pop-confirm@^4.2.4":
+  version "4.2.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/pop-confirm/-/pop-confirm-4.2.4.tgz"
+  integrity sha512-vx3dvDiKPsaUAc5SvNbLZS1Q7kVEP02ZXjV6m02ShIjiT/BM7Z1krf9rWNavHp6WO1usVRjaIDHdgbggjx65MQ==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/popover@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/popover/-/popover-4.1.1.tgz"
+  integrity sha512-9Mgu/7bHEZI+3jOk3b5RlT+B6WeACZqI9/repSTe1tcHl948KcdYZeSyduIlEH2iUDebjz/d0FCEvVUbQ5tMnA==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-id" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-timeout" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-unmount-effect" "^4.0.4"
+
+"@hi-ui/popper@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/popper/-/popper-4.1.5.tgz"
+  integrity sha512-2QU/aEm9cKZ9Vsm8pNCu9s1NnWUPDgs7VFAJa5LFQQNTjdsst4agnY1mz17Cffym1rcdQCfmhYnwE8wlsquepA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-lazy-render" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-outside-click" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@popperjs/core" "^2.9.3"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/portal@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/portal/-/portal-4.0.8.tgz"
+  integrity sha512-BH2afri4s4uSxZAmHvaBGZzO8//FoBG5ribrhhEWIJXduPj2pro8pZhPpD3Ie4NX9vzssbvO2J9IdkzSACrtFg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/container" "^4.1.1"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/use-force-update" "^4.0.4"
+
+"@hi-ui/preview@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/preview/-/preview-4.0.9.tgz"
+  integrity sha512-6NGkPHZTbEWUXQm5xEUqix0mo5Ob1B7p3PxdcUCRq3WAwULBrxvEb5HDHM5nIU6+0eNoLjE0KWUaO8XhxM7XsQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/progress@^4.0.10":
+  version "4.0.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/progress/-/progress-4.0.10.tgz"
+  integrity sha512-qtXlbWZliVmA5MOL2xb7Ny828IKdjyTzzxStYrwF19weNiyTZZ2RZcDiltCCsT5/9ra7iW2ARg23wj0d3PLjfg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/provider@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/provider/-/provider-4.0.9.tgz"
+  integrity sha512-9GdQJ7fvAhxPYhOvJ/kXxdE9JEsfEeNhVLuGZwPVW/ZHkMFlsYyk0WFGxYwNiRw773zo1WOyGC9ct7MTRNZx2Q==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/object-utils" "^4.0.4"
+    csstype "^3.0.11"
+
+"@hi-ui/radio@^4.1.4":
+  version "4.1.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/radio/-/radio-4.1.4.tgz"
+  integrity sha512-aa1GuZw3f1IJWKahXl88h/hJnV/5Vaqz1kRSehJMrXHfZ2Gntty/GZ9YkO20O9Rg9A8SjqSbkFd7s3dzADuVpA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/raf@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/raf/-/raf-4.0.5.tgz"
+  integrity sha512-lfj8QtCDD1MZOskLDSxqgJrpw2J6D6MQSxyiLoMfOK+PC2qrVmQANfA1QwjRKeQe0zMsNn6TUkADHgP7u5IdJw==
+
+"@hi-ui/rating@^4.0.10":
+  version "4.0.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/rating/-/rating-4.0.10.tgz"
+  integrity sha512-tgNDFLM57ezhS+Oc06GKPHtvPPGc7BmjnVxRvBH50OIChuZU4SotlwDgR0695/ShyeSzZZm/9mYAyUPdTiVkug==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/tooltip" "^4.0.11"
+    "@hi-ui/use-did-mount" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/react-utils@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/react-utils/-/react-utils-4.0.4.tgz"
+  integrity sha512-IGgpeYiYS82t20SYR6TxJ4Bi3sBgKzmWY4AWqCml7UouvwV9o0NtQxLmhkK8ZamHY80nLBtqyT7MaToJC1P1hg==
+  dependencies:
+    "@hi-ui/env" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/result@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/result/-/result-4.0.8.tgz"
+  integrity sha512-lidlWCLeLbYjueNN96IRLx1toE4G6delJPfwtN0hbO5E8Z+p9P+Uq1ji4f+nWHfD5066wKnKzNrLbC7OlVO8zg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/scrollbar@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/scrollbar/-/scrollbar-4.1.1.tgz"
+  integrity sha512-MPL+vpV5r0kTnhmGBC6fVyQoFtYjdPgqcrCDMVNRfCDHLiSkSlckqQuxOxeWlU1tDChSFUE0Co8D4Ku3Fndo1A==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    perfect-scrollbar "^1.5.5"
+
+"@hi-ui/search@^4.0.14":
+  version "4.0.14"
+  resolved "https://registry.npmmirror.com/@hi-ui/search/-/search-4.0.14.tgz"
+  integrity sha512-emtOtGDgXo3v4kO7k1zHNbKNRW+tcnCBKymvWqVkKDHWAiLfBg/nKuS/vMnKe/+BQsk9GebGsuaaUlSn8CL4xQ==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/loading" "^4.2.1"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/select@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/select/-/select-4.4.1.tgz"
+  integrity sha512-r4tJxJzdZBrmYURvPDtxbCvF01XWtRS1athiWCrF0Ys/zm14tq7ZzW1SUavHXFovq3Opx6nboGLR97c5/pyaAQ==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/times" "^4.0.4"
+    "@hi-ui/tree-utils" "^4.1.6"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-children" "^4.0.4"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-search-mode" "^4.1.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    "@hi-ui/virtual-list" "^4.0.8"
+
+"@hi-ui/slider@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.npmmirror.com/@hi-ui/slider/-/slider-4.0.11.tgz"
+  integrity sha512-kOlgpUOyNkyWbwWt2fwAoUJeXRfRBgrH+WyVnzrDeUONQdabXAy7tEbei6pH2F4WO13pJkYRrApnaurDRbM59g==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/tooltip" "^4.0.11"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-outside-click" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/space@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.npmmirror.com/@hi-ui/space/-/space-4.0.11.tgz"
+  integrity sha512-5pCOb1S2srNIxRfBT6qnIGCFLpOnXWVimRHoZnA5lB/qC4zo9CKWbhFyfl6fcIJa1zUKwasgTuEYo9lYZMu5Gw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/spinner@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.npmmirror.com/@hi-ui/spinner/-/spinner-4.0.9.tgz"
+  integrity sha512-nri7vhtF9LH1WPjq1PmbrKUVFSE/ZWsNvSM++e6WyT4ZpwpEtQEn6X+tTw7+aF8F5+569yhd+UgTovaKhUJApA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/stepper@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/stepper/-/stepper-4.0.8.tgz"
+  integrity sha512-pErG1EuSWxlN55c7i+nzAXwcwP4SJt4y5ZTmn99rgF2qdJFBw05ZzO4ny/ktEA331DDx/UeoBBThat+TDZ+ApQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/style-inject@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/@hi-ui/style-inject/-/style-inject-4.0.0.tgz"
+  integrity sha512-f/WDX/a10y08gYY9UaSwX0V0CbLDxlzf/6UrwD8fZIyIPdlyrR3Jld8X18vz5zywxPTpOPwBQLf9PYZ9YdFMPA==
+
+"@hi-ui/svg-icon@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/svg-icon/-/svg-icon-4.0.8.tgz"
+  integrity sha512-VqLMYEuLnj3yMVbUPRVTTLqJUyiZgtymI+BiOM39iZi3hdKPJPWsF/LJrWjkWUKvieMTqIEjOYN4QZ7trFOvnw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+
+"@hi-ui/switch@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.npmmirror.com/@hi-ui/switch/-/switch-4.0.11.tgz"
+  integrity sha512-JAzjUDjofNMUIIXKMJ/jxMEaphE+TapdJ3qILWzZNdCASsbbqewshb743qayp+qe8wUmX6bx2+4If56ctMMd1A==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/table@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.npmmirror.com/@hi-ui/table/-/table-4.5.3.tgz"
+  integrity sha512-1tZ/9CNt3qL9Q7YaANhe7oEC1t/p/JKwzgc6FLpWEXNYw4CRv+5Ktew0XJJAkQbUP14IOV1T45IT8e6lKGZoFA==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/drawer" "^4.1.4"
+    "@hi-ui/empty-state" "^4.1.1"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/icon-button" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/loading" "^4.2.1"
+    "@hi-ui/object-utils" "^4.0.4"
+    "@hi-ui/pagination" "^4.0.15"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/scrollbar" "^4.1.1"
+    "@hi-ui/select" "^4.4.1"
+    "@hi-ui/spinner" "^4.0.9"
+    "@hi-ui/times" "^4.0.4"
+    "@hi-ui/tree-utils" "^4.1.6"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-cache" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-check-state" "^4.0.4"
+    "@hi-ui/use-drag-sorter" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    "@hi-ui/use-update-effect" "^4.0.4"
+    axios "^1.5.0"
+    react-resizable "^3.0.4"
+
+"@hi-ui/tabs@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/tabs/-/tabs-4.1.5.tgz"
+  integrity sha512-x95NQPcH3gYcuuc1O+WN6J0RIe9mc4l/W7vpanGD+NQNqDzI78GtQqaOeKzvYv7c6ktAe7MmWhL5yAy6HSfdZA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icon-button" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    "@hi-ui/use-unmount-effect" "^4.0.4"
+
+"@hi-ui/tag-input@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/tag-input/-/tag-input-4.1.1.tgz"
+  integrity sha512-B42bf+rqwfQVRV3hVDroX4AsPiXIcqeRgWF1N597FAPZadekhBOn/oQRlKrGM/Kt8Y/Q/aZFyaMMRnjeGTnMgg==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-outside-click" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    react-resize-detector "^6.7.6"
+
+"@hi-ui/tag@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.npmmirror.com/@hi-ui/tag/-/tag-4.2.1.tgz"
+  integrity sha512-YAi/MU7b53rfAUzMrVv1yR8dbH1/wDumkC+H0ZC/QlnDzDG18PGRB1BtnWlaPnnngyQUaA9DXpObA77d/Vye+w==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/tooltip" "^4.0.11"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/textarea@^4.1.7":
+  version "4.1.7"
+  resolved "https://registry.npmmirror.com/@hi-ui/textarea/-/textarea-4.1.7.tgz"
+  integrity sha512-YucPt1i1ZSl6I4GVa5/s0xuCucL36wZxP3M+V5qmnaNtRBcTjJZrANnaicrCaNqmzV/2ucGnBsFytzWhsCvS9A==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    react-resize-detector "^7.0.0"
+
+"@hi-ui/throttle-by-raf@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/throttle-by-raf/-/throttle-by-raf-4.0.5.tgz"
+  integrity sha512-dW44rjAE9n8B5jhbz4ldjETBGPArQtrQV4NumRxmss/IH//lUmH3SahQFUS7UeVTiCGc8oICESxFBRYf95kFQg==
+  dependencies:
+    "@hi-ui/raf" "^4.0.5"
+
+"@hi-ui/time-picker@^4.0.14":
+  version "4.0.14"
+  resolved "https://registry.npmmirror.com/@hi-ui/time-picker/-/time-picker-4.0.14.tgz"
+  integrity sha512-he+WTSqEIEv7ZxRyZMr/NA69vTEwFYDtjsKTdU3tNcyzh7HFOAqVzdkywOkthtL7hiwvvUTV7S3CrGfMOpDunA==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    dayjs "^1.10.7"
+
+"@hi-ui/timeline@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/timeline/-/timeline-4.0.8.tgz"
+  integrity sha512-x8Brp/t3KOwKUafkZajeHE8xTuZz0lmNvikESMDod4peUSQSjdj45Hx1eR3qQrASRXvnSNI6e9GIfqRkED8kyw==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/times@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/times/-/times-4.0.4.tgz"
+  integrity sha512-Gdy3Reurt6DC4J3q6BRc7npdwchWHpSCDDPi2Ry95OVGRuuhOZ5uZl1V+fMgwFFWTrKp/KgyCNhCZcsZyLHYnQ==
+
+"@hi-ui/toast@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/toast/-/toast-4.0.8.tgz"
+  integrity sha512-1Tz+CdnhvTQOL89ddcC7Wl1ELKHEyogj0sZPTmai/AnhFy7hQVAc7VVUF9YJLfczo2zMhx/+gfXzbLBnfzIzvA==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/container" "^4.1.1"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-id" "^4.0.4"
+
+"@hi-ui/tooltip@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.npmmirror.com/@hi-ui/tooltip/-/tooltip-4.0.11.tgz"
+  integrity sha512-yYZef029pnsG26W8lH7rJbPodCKPLYHGo7IwF++srLOe0u2gqwsLYvTLuc0/xnhEWjp+EFIKjdpeIyadtDkxqA==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/container" "^4.1.1"
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-id" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-lazy-render" "^4.0.4"
+    "@hi-ui/use-timeout" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    "@hi-ui/use-unmount-effect" "^4.0.4"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/transfer@^4.0.14":
+  version "4.0.14"
+  resolved "https://registry.npmmirror.com/@hi-ui/transfer/-/transfer-4.0.14.tgz"
+  integrity sha512-V9LyDjcLR4EN1LagIDgd/espxILh78QYM7An7G4cVaGbtBSzHKDSxlod91lMLdSXJTbHYFOnCSqciunATg0Zvg==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/pagination" "^4.0.15"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/tree-select@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/tree-select/-/tree-select-4.1.5.tgz"
+  integrity sha512-Lt+Eo5G3RReS4rkJT58Qb2eBcRL2v/AbVubTIecOf4dV5iCacm+AzVPVD0alYU9l5GVfzHOspe4Jdbrl+yDPXw==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/highlighter" "^4.0.9"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/picker" "^4.1.6"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/tree" "^4.5.10"
+    "@hi-ui/tree-utils" "^4.1.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-search-mode" "^4.1.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/tree-utils@^4.1.4", "@hi-ui/tree-utils@^4.1.5", "@hi-ui/tree-utils@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.npmmirror.com/@hi-ui/tree-utils/-/tree-utils-4.1.6.tgz"
+  integrity sha512-45sbpg2YAheC065COEhAHhtLJ/jq2XC6UrljiZVAd7+w1918pPEshWWw8Mn01YvD0c8NThlIwTUdIvRXOKoL1g==
+
+"@hi-ui/tree@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.npmmirror.com/@hi-ui/tree/-/tree-4.5.10.tgz"
+  integrity sha512-dLsvE5NvV8JeQOWE4wdsIO6Vsk4H0oiA9QO7D/QYFb0lSi2as7hAvQYq6490iBntNe79LvrHxF1I5+WiLKthEA==
+  dependencies:
+    "@hi-ui/array-utils" "^4.0.5"
+    "@hi-ui/checkbox" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/input" "^4.1.1"
+    "@hi-ui/popper" "^4.1.5"
+    "@hi-ui/times" "^4.0.4"
+    "@hi-ui/tree-utils" "^4.1.5"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-check" "^4.0.5"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+    "@hi-ui/use-outside-click" "^4.0.4"
+    "@hi-ui/use-toggle" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+    "@hi-ui/virtual-list" "^4.0.8"
+    react-transition-group "^4.4.2"
+
+"@hi-ui/type-assertion@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/type-assertion/-/type-assertion-4.0.4.tgz"
+  integrity sha512-YcUJum7ufepDwH4x8Hlv0JaMpvEpgLSNlguOKWya1S0eRSIYcPhzRqPYzZ4/kZyfY599QnTnz55fbp9XLzEluw==
+
+"@hi-ui/upload@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.npmmirror.com/@hi-ui/upload/-/upload-4.2.2.tgz"
+  integrity sha512-wYxxeJUujIZlkmClqsN8gcrxpOev2FH/oYNOf5jTS03Wi7rj8DfbMhE8fm7aq7SlUjlcDwBFpUk7vK7HIGfYWg==
+  dependencies:
+    "@hi-ui/button" "^4.0.10"
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/file-select" "^4.0.8"
+    "@hi-ui/icons" "^4.0.19"
+    "@hi-ui/message" "^4.0.8"
+    "@hi-ui/modal" "^4.1.1"
+    "@hi-ui/preview" "^4.0.9"
+    "@hi-ui/use-id" "^4.0.4"
+    react-cropper "^2.1.8"
+    uuid "^8.3.2"
+
+"@hi-ui/use-cache@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-cache/-/use-cache-4.0.4.tgz"
+  integrity sha512-N7+wUU3LFJxgejEL1Hdd0eLWao4eB0NRehJW83JSOCaHqrw+RMUxC35pFk2SjF2utLjDmlooYOXmwzAo7stD/A==
+
+"@hi-ui/use-check-state@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-check-state/-/use-check-state-4.0.4.tgz"
+  integrity sha512-j5UKCOqx9Fq7FZ2o5QniCByLig0g+jpL5Y6kavSd6p/LiEooGzkcnFKPhGzMdkMctdLLEHxXmQkDkStwvlRaDQ==
+
+"@hi-ui/use-check@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-check/-/use-check-4.0.5.tgz"
+  integrity sha512-hBS+sEglOiCxyosZnRKaN7N9n5EI8mKRec3GrB10FzZCyqTxxdB/Vj7HMg5+9FoXBPs/Iu7nHGqsh0zGECc6Tw==
+  dependencies:
+    "@hi-ui/tree-utils" "^4.1.4"
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/use-children@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-children/-/use-children-4.0.4.tgz"
+  integrity sha512-QoYlNPUljXBKmfcfzbq20Y3XfaMNCaByHIo9Zr/3wRgPuSaNEE7ZL8aGzYYs/Ifp2gibW+vWzJC6P27qm5PFlg==
+  dependencies:
+    "@types/react-is" "^17.0.2"
+    react-is "^17.0.2"
+
+"@hi-ui/use-data-source@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-data-source/-/use-data-source-4.0.4.tgz"
+  integrity sha512-9ktekBdNMg+WU0KoxWygpn2eYncZYkYiVe1MuXpExH2fKoakaPjKumJTxyldjVPMlWL8/2SaOSMF1M/tVydipg==
+  dependencies:
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-did-mount@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-did-mount/-/use-did-mount-4.0.4.tgz"
+  integrity sha512-6s2Phn5ReJUq2H5AfcflwBfDV/HhvuVEePHvnvPVVWJCt4mg0ZReuK/zIdasL0LzNgBuzOU+MfqGe2vk+nQCJA==
+
+"@hi-ui/use-drag-sorter@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-drag-sorter/-/use-drag-sorter-4.0.4.tgz"
+  integrity sha512-IUj2WbCHG2QgIbECLthILGAMMxADw5+/4T//4GmCcA2Nf2elv1XQqLYtsOPMGbZ/HQGZcBCh1PtBRWTGL7wdIQ==
+  dependencies:
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-force-update@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-force-update/-/use-force-update-4.0.4.tgz"
+  integrity sha512-1vk1XfzDkjPI513LPKUJzckk9kXPCVF7Fc+hTG5WJS8YZWAFRv5Q2Qd+MFhpHTfpmDdqC3V8mMfDCms0VYgtwA==
+  dependencies:
+    "@hi-ui/use-unmount-effect" "^4.0.4"
+
+"@hi-ui/use-id@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-id/-/use-id-4.0.4.tgz"
+  integrity sha512-K6U2IQtk1WDARcGr1yJnwBsj5c3Iozq03ze8rz4FsvYqzNpRoHyY9jdGNTgR6VAl2PJpwwebKjt1ijtOSQzgNQ==
+  dependencies:
+    uuid "^8.3.2"
+
+"@hi-ui/use-latest@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-latest/-/use-latest-4.0.4.tgz"
+  integrity sha512-vfdnSxM/tB69OKp7b5o314BKjXdqwrUy3kpPKULnS2eqdXLA3HbqpkST0qtB5Wyy2qKTMJ1UgStNsuZ4qop3Yg==
+
+"@hi-ui/use-lazy-render@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-lazy-render/-/use-lazy-render-4.0.4.tgz"
+  integrity sha512-j1mKV7IYqJvGKtaJfwkCZjAVbXUcIaiM2cnfwXyv0Pd5a1o/TiXO/L2bb7BP8FNqy2qDnrH89N9RNp5bYoWqGQ==
+
+"@hi-ui/use-merge-refs@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-merge-refs/-/use-merge-refs-4.0.4.tgz"
+  integrity sha512-5AAPPsOQTXCH5a7c+Wv9VXyLAnbcotnO45gqWMOVASKSaIvsndx4Pb6DbZDwEyzxV1dPxBUI+V0XW59JOSmKeA==
+
+"@hi-ui/use-outside-click@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-outside-click/-/use-outside-click-4.0.4.tgz"
+  integrity sha512-K3DCZn+W+W/+0yS5fzZRZsa1mr2v2JLUkgabZVIXrPZJU8Pf8XbsaUFnK1XynSiB1HqhD63jUSljz++Lfvj9PQ==
+  dependencies:
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-registry@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-registry/-/use-registry-4.0.5.tgz"
+  integrity sha512-nFuhUqG+Ng+s+UhX6IshB/L1jdsAVHQQ+jXr3PWpVlOlxf4u6ANFpSETvZRfc9GxPHSztlGKrUGNLnHY3VkCIA==
+
+"@hi-ui/use-resize-observer@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-resize-observer/-/use-resize-observer-4.0.4.tgz"
+  integrity sha512-SIhOMlpBLaUmVzGOHGbv+lTVoJQPnisR+WshZywJwo1vsnQx5s5GDNN61cfsFjmklCTIUubOopXVYT4rU+MgpQ==
+  dependencies:
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-unmount-effect" "^4.0.4"
+
+"@hi-ui/use-scroll-lock@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-scroll-lock/-/use-scroll-lock-4.0.4.tgz"
+  integrity sha512-syQkgXDMTagd7NEh16VxPWad7VvDZcV4IMLWdxSiO2JWns8jFUq7lwlebC11WTN+9T8JIW47vaSNDifaVl64lQ==
+  dependencies:
+    "@hi-ui/env" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+
+"@hi-ui/use-scroll@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-scroll/-/use-scroll-4.0.5.tgz"
+  integrity sha512-tanlkkmeMAeZ1cPTETzMGz3+zjbuCijcontHCTtbioteZkE+jeJHvF385RphVs7gF6zTSNPKeyyvaMHxdvsB/g==
+  dependencies:
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/throttle-by-raf" "^4.0.5"
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-search-mode@^4.1.4":
+  version "4.1.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-search-mode/-/use-search-mode-4.1.4.tgz"
+  integrity sha512-K3eGBYfec1o4RQ6yiurIiilU6J+A5YJlxJrGQ4pnulsLHjnab3Eluhk2Twcn1BzlDqQisUsn6ObKdPfiax82Uw==
+  dependencies:
+    "@hi-ui/dom-utils" "^4.0.7"
+    "@hi-ui/env" "^4.0.4"
+    "@hi-ui/func-utils" "^4.0.4"
+    "@hi-ui/loading" "^4.1.3"
+    "@hi-ui/tree-utils" "^4.1.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-data-source" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-timeout@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-timeout/-/use-timeout-4.0.4.tgz"
+  integrity sha512-+ZBwHf4t50rFbe6Zx+7vDXmPVqicDHJQe4yoWJYNoKKThzslmmXk2TdW9zah/eazbs8ERURPz0xHmDAAxfDzVA==
+  dependencies:
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-toggle@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-toggle/-/use-toggle-4.0.4.tgz"
+  integrity sha512-Tvdi+CI0ihJ28nJVovPg7/ChJpyCkSdSVFyOcwUSkIjUCNYaHYp/l1I/K+/y6r+AMxWs9pUMlwyz9B02PwD/EQ==
+  dependencies:
+    "@hi-ui/use-latest" "^4.0.4"
+    "@hi-ui/use-uncontrolled-state" "^4.0.4"
+
+"@hi-ui/use-uncontrolled-state@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-uncontrolled-state/-/use-uncontrolled-state-4.0.4.tgz"
+  integrity sha512-/uK0KW5zeS7JVgkqotGvGOoy32IoJBTg4sJ5bkWs9kI/LgdefFxxqpyStaIdLsnGmCdCS4Zud4Asf284bkHh2w==
+  dependencies:
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-unmount-effect@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-unmount-effect/-/use-unmount-effect-4.0.4.tgz"
+  integrity sha512-8LCROHNcZKTWGzNkiZml1JnV+U4XYQsQ6lVPgdybF1odJfFgmNflS3gOV0Cc0C1YMPyWJXiCRmL6/549e8Py/A==
+  dependencies:
+    "@hi-ui/use-latest" "^4.0.4"
+
+"@hi-ui/use-update-effect@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.npmmirror.com/@hi-ui/use-update-effect/-/use-update-effect-4.0.4.tgz"
+  integrity sha512-R4gB3ZgpuWNweJYBQtLwdlKfar0Y34DXG+Fgy4w2ZCbGAOCDAjAGNf0XQqx9QOQI3gFVa29OTf5qeoC7VAR+oA==
+
+"@hi-ui/virtual-list@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/virtual-list/-/virtual-list-4.0.8.tgz"
+  integrity sha512-tHKBoG7frC/MV07r5JwEwCQDXneisfqh75iTmGHo/z634RQLwY3BiAafRUl77JsONi8Nc3smPLhdT7kE8Ml0ag==
+
+"@hi-ui/watermark@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/watermark/-/watermark-4.0.8.tgz"
+  integrity sha512-xnvRiI4BDQDwiciP5u3AC42hukeNXB3D/PSfUzppzKecmSxDMy05eglI0i7GFvu9k587vTO2bhdB0XgtMBOVWQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/portal" "^4.0.8"
+    "@hi-ui/react-utils" "^4.0.4"
+    "@hi-ui/type-assertion" "^4.0.4"
+    "@hi-ui/use-merge-refs" "^4.0.4"
+
+"@hi-ui/zen-mode@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.npmmirror.com/@hi-ui/zen-mode/-/zen-mode-4.0.8.tgz"
+  integrity sha512-dXgGxRhTe1tEMWt6dKiPWWh4o0gj3cHGW517XPJ0j2kdGPG+6PWm6//v8bUAYfQpEiaumESaczjAtx3kGIi0JQ==
+  dependencies:
+    "@hi-ui/classname" "^4.0.5"
+    "@hi-ui/env" "^4.0.5"
+    "@hi-ui/icons" "^4.0.19"
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.npmmirror.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz"
@@ -386,6 +1783,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@popperjs/core@^2.9.3":
+  version "2.11.8"
+  resolved "https://registry.npmmirror.com/@popperjs/core/-/core-2.11.8.tgz"
+  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
 "@rc-component/async-validator@^5.0.3":
   version "5.0.4"
@@ -506,6 +1908,11 @@
   dependencies:
     "@swc/counter" "^0.1.3"
 
+"@tweenjs/tween.js@^18.6.4":
+  version "18.6.4"
+  resolved "https://registry.npmmirror.com/@tweenjs/tween.js/-/tween.js-18.6.4.tgz"
+  integrity sha512-lB9lMjuqjtuJrx7/kOkqQBtllspPIN+96OvTCeJ2j5FEzinoAXTdAMFnDAQT1KVPRlnYfBrqxtqP66vDM40xxQ==
+
 "@types/axios@^0.14.0":
   version "0.14.0"
   resolved "https://registry.npmmirror.com/@types/axios/-/axios-0.14.0.tgz"
@@ -570,6 +1977,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-is@^17.0.2":
+  version "17.0.7"
+  resolved "https://registry.npmmirror.com/@types/react-is/-/react-is-17.0.7.tgz"
+  integrity sha512-WrTEiT+c6rgq36QApoy0063uAOdltCrhF0QMXLIgYPaTvIdQhAB8hPb5oGGqX18xToElNILS9UprwU6GyINcJg==
+  dependencies:
+    "@types/react" "^17"
+
 "@types/react@*", "@types/react@^18.2.66":
   version "18.3.3"
   resolved "https://registry.npmmirror.com/@types/react/-/react-18.3.3.tgz"
@@ -577,6 +1991,25 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
+
+"@types/react@^17":
+  version "17.0.80"
+  resolved "https://registry.npmmirror.com/@types/react/-/react-17.0.80.tgz"
+  integrity sha512-LrgHIu2lEtIo8M7d1FcI3BdwXWoRQwMoXOZ7+dPTW0lYREjmlHl3P0U1VD0i/9tppOuv8/sam7sOjx34TxSFbA==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "^0.16"
+    csstype "^3.0.2"
+
+"@types/resize-observer-browser@^0.1.6":
+  version "0.1.11"
+  resolved "https://registry.npmmirror.com/@types/resize-observer-browser/-/resize-observer-browser-0.1.11.tgz"
+  integrity sha512-cNw5iH8JkMkb3QkCoe7DaZiawbDQEUX8t7iuQaRTyLOyQCR2h+ibBD4GJt7p5yhUHrlOeL7ZtbxNHeipqNsBzQ==
+
+"@types/scheduler@^0.16":
+  version "0.16.8"
+  resolved "https://registry.npmmirror.com/@types/scheduler/-/scheduler-0.16.8.tgz"
+  integrity sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==
 
 "@typescript-eslint/eslint-plugin@^7.2.0":
   version "7.10.0"
@@ -798,6 +2231,11 @@ array-union@^2.1.0:
   resolved "https://registry.npmmirror.com/array-union/-/array-union-2.1.0.tgz"
   integrity sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==
 
+async-validator@^4.0.7:
+  version "4.2.5"
+  resolved "https://registry.npmmirror.com/async-validator/-/async-validator-4.2.5.tgz"
+  integrity sha512-7HhHjtERjqlNbZtqNqy2rckN/SpOOlmDliet+lP7k+eKZEjPk3DgyeU9lIXLdeLz0uBbbVp+9Qdow9wJWgwwfg==
+
 async@^3.2.3:
   version "3.2.5"
   resolved "https://registry.npmmirror.com/async/-/async-3.2.5.tgz"
@@ -808,7 +2246,7 @@ asynckit@^0.4.0:
   resolved "https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@*, axios@^1.7.2:
+axios@*, axios@^1.5.0, axios@^1.7.2:
   version "1.7.2"
   resolved "https://registry.npmmirror.com/axios/-/axios-1.7.2.tgz"
   integrity sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==
@@ -919,6 +2357,11 @@ classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, clas
   resolved "https://registry.npmmirror.com/classnames/-/classnames-2.5.1.tgz"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
+clsx@^1.1.1:
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/clsx/-/clsx-1.2.1.tgz"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmmirror.com/color-convert/-/color-convert-1.9.3.tgz"
@@ -972,6 +2415,11 @@ copy-to-clipboard@^3.3.3:
   dependencies:
     toggle-selection "^1.0.6"
 
+cropperjs@^1.5.13:
+  version "1.6.2"
+  resolved "https://registry.npmmirror.com/cropperjs/-/cropperjs-1.6.2.tgz"
+  integrity sha512-nhymn9GdnV3CqiEHJVai54TULFAE3VshJTXSqSJKa8yXAKyBKDWdhHarnlIPrshJ0WMFTGuFvG02YjLXfPiuOA==
+
 cross-spawn@^7.0.2:
   version "7.0.3"
   resolved "https://registry.npmmirror.com/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -981,12 +2429,12 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csstype@^3.0.2, csstype@^3.1.3:
+csstype@^3.0.11, csstype@^3.0.2, csstype@^3.1.3:
   version "3.1.3"
   resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
-dayjs@^1.11.10, "dayjs@>= 1.x":
+dayjs@^1.10.7, dayjs@^1.11.10, "dayjs@>= 1.x":
   version "1.11.11"
   resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.11.tgz"
   integrity sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==
@@ -1021,6 +2469,14 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+dom-helpers@^5.0.1:
+  version "5.2.1"
+  resolved "https://registry.npmmirror.com/dom-helpers/-/dom-helpers-5.2.1.tgz"
+  integrity sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 electron-to-chromium@^1.4.668:
   version "1.4.782"
@@ -1377,6 +2833,11 @@ inherits@2:
   resolved "https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+inject-head-style@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/inject-head-style/-/inject-head-style-1.0.0.tgz"
+  integrity sha512-J6eyVFIiY3SgvguiUx/XXBZWTIxMryhiSosH2fan5+FhfA4LlNJkybUcYsINInM+zvsBmcrIHVWJxvi4lvjwqA==
+
 is-binary-path@~2.1.0:
   version "2.1.0"
   resolved "https://registry.npmmirror.com/is-binary-path/-/is-binary-path-2.1.0.tgz"
@@ -1491,7 +2952,12 @@ lodash.merge@^4.6.2:
   resolved "https://registry.npmmirror.com/lodash.merge/-/lodash.merge-4.6.2.tgz"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-loose-envify@^1.1.0:
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -1558,6 +3024,11 @@ minimatch@^9.0.4:
   dependencies:
     brace-expansion "^2.0.1"
 
+moment@^2.29.4, "moment@>= 2.x":
+  version "2.30.1"
+  resolved "https://registry.npmmirror.com/moment/-/moment-2.30.1.tgz"
+  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz"
@@ -1582,6 +3053,16 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+
+number-precision@^1.5.0:
+  version "1.6.0"
+  resolved "https://registry.npmmirror.com/number-precision/-/number-precision-1.6.0.tgz"
+  integrity sha512-05OLPgbgmnixJw+VvEh18yNPUo3iyp4BEWJcrLu4X9W05KmMifN7Mu5exYvQXqxxeNWhvIF+j3Rij+HmddM/hQ==
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/object-assign/-/object-assign-4.1.1.tgz"
+  integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
 once@^1.3.0:
   version "1.4.0"
@@ -1643,6 +3124,11 @@ path-type@^4.0.0:
   resolved "https://registry.npmmirror.com/path-type/-/path-type-4.0.0.tgz"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+perfect-scrollbar@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.npmmirror.com/perfect-scrollbar/-/perfect-scrollbar-1.5.5.tgz"
+  integrity sha512-dzalfutyP3e/FOpdlhVryN4AJ5XDVauVWxybSkLZmakFE2sS3y3pc4JnSprw8tGmHvkaG5Edr5T7LBTZ+WWU2g==
+
 picocolors@^1.0.0, picocolors@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/picocolors/-/picocolors-1.0.1.tgz"
@@ -1666,6 +3152,15 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/prelude-ls/-/prelude-ls-1.2.1.tgz"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prop-types@^15.6.2, prop-types@^15.8.1, prop-types@15.x:
+  version "15.8.1"
+  resolved "https://registry.npmmirror.com/prop-types/-/prop-types-15.8.1.tgz"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
 
 proxy-from-env@^1.1.0:
   version "1.1.0"
@@ -2038,13 +3533,38 @@ rc-virtual-list@^3.11.1, rc-virtual-list@^3.5.1, rc-virtual-list@^3.5.2:
     rc-resize-observer "^1.0.0"
     rc-util "^5.36.0"
 
-react-dom@*, react-dom@^18.2.0, react-dom@>=16.0.0, react-dom@>=16.11.0, react-dom@>=16.8, react-dom@>=16.9.0:
+react-cropper@^2.1.8:
+  version "2.3.3"
+  resolved "https://registry.npmmirror.com/react-cropper/-/react-cropper-2.3.3.tgz"
+  integrity sha512-zghiEYkUb41kqtu+2jpX2Ntigf+Jj1dF9ew4lAobPzI2adaPE31z0p+5TcWngK6TvmWQUwK3lj4G+NDh1PDQ1w==
+  dependencies:
+    cropperjs "^1.5.13"
+
+react-dom@*, "react-dom@^16.0.0 || ^17.0.0", "react-dom@^16.0.0 || ^17.0.0 || ^18.0.0", react-dom@^18.3.1, "react-dom@>= 16.3.0", react-dom@>=16.0.0, react-dom@>=16.11.0, react-dom@>=16.6.0, react-dom@>=16.8, react-dom@>=16.8.6, react-dom@>=16.9.0:
   version "18.3.1"
   resolved "https://registry.npmmirror.com/react-dom/-/react-dom-18.3.1.tgz"
   integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
+
+react-draggable@^4.0.3:
+  version "4.4.6"
+  resolved "https://registry.npmmirror.com/react-draggable/-/react-draggable-4.4.6.tgz"
+  integrity sha512-LtY5Xw1zTPqHkVmtM3X8MUOxNDOUhv/khTgBgrUvwaS064bwVvxT+q5El0uUFNx5IEPKXuRejr7UqLwBIg5pdw==
+  dependencies:
+    clsx "^1.1.1"
+    prop-types "^15.8.1"
+
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.npmmirror.com/react-is/-/react-is-16.13.1.tgz"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-is@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.npmmirror.com/react-is/-/react-is-17.0.2.tgz"
+  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-is@^18.2.0:
   version "18.3.1"
@@ -2055,6 +3575,30 @@ react-refresh@^0.14.2:
   version "0.14.2"
   resolved "https://registry.npmmirror.com/react-refresh/-/react-refresh-0.14.2.tgz"
   integrity sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==
+
+react-resizable@^3.0.4:
+  version "3.0.5"
+  resolved "https://registry.npmmirror.com/react-resizable/-/react-resizable-3.0.5.tgz"
+  integrity sha512-vKpeHhI5OZvYn82kXOs1bC8aOXktGU5AmKAgaZS4F5JPburCtbmDPqE7Pzp+1kN4+Wb81LlF33VpGwWwtXem+w==
+  dependencies:
+    prop-types "15.x"
+    react-draggable "^4.0.3"
+
+react-resize-detector@^6.7.6:
+  version "6.7.8"
+  resolved "https://registry.npmmirror.com/react-resize-detector/-/react-resize-detector-6.7.8.tgz"
+  integrity sha512-0FaEcUBAbn+pq3PT5a9hHRebUfuS1SRLGLpIw8LydU7zX429I6XJgKerKAMPsJH0qWAl6o5bVKNqFJqr6tGPYw==
+  dependencies:
+    "@types/resize-observer-browser" "^0.1.6"
+    lodash "^4.17.21"
+    resize-observer-polyfill "^1.5.1"
+
+react-resize-detector@^7.0.0:
+  version "7.1.2"
+  resolved "https://registry.npmmirror.com/react-resize-detector/-/react-resize-detector-7.1.2.tgz"
+  integrity sha512-zXnPJ2m8+6oq9Nn8zsep/orts9vQv3elrpA+R8XTcW7DVVUJ9vwDwMXaBtykAYjMnkCIaOoK9vObyR7ZgFNlOw==
+  dependencies:
+    lodash "^4.17.21"
 
 react-router-dom@^6.23.1:
   version "6.23.1"
@@ -2071,7 +3615,27 @@ react-router@^6.23.1, react-router@6.23.1:
   dependencies:
     "@remix-run/router" "1.16.1"
 
-react@*, "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, react@^18.3.1, react@>=16.0.0, react@>=16.11.0, react@>=16.8, react@>=16.9.0:
+react-transition-group@^4.4.2:
+  version "4.4.5"
+  resolved "https://registry.npmmirror.com/react-transition-group/-/react-transition-group-4.4.5.tgz"
+  integrity sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+
+react-transition-group@4.4.2:
+  version "4.4.2"
+  resolved "https://registry.npmmirror.com/react-transition-group/-/react-transition-group-4.4.2.tgz"
+  integrity sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+
+react@*, "react@^16.0.0 || ^17.0.0", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.3.1, "react@>= 16.3", "react@>= 16.3.0", react@>=16.0.0, react@>=16.11.0, react@>=16.6.0, react@>=16.8, react@>=16.8.6, react@>=16.9.0, react@>=17.0.2:
   version "18.3.1"
   resolved "https://registry.npmmirror.com/react/-/react-18.3.1.tgz"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==
@@ -2226,6 +3790,11 @@ strip-json-comments@^3.1.1:
   resolved "https://registry.npmmirror.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
+style-inject@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npmmirror.com/style-inject/-/style-inject-0.3.0.tgz"
+  integrity sha512-IezA2qp+vcdlhJaVm5SOdPPTUu0FCEqfNSli2vRuSIBbu5Nq5UvygTk/VzeCqfLz2Atj3dVII5QBKGZRZ0edzw==
+
 stylis@^4.0.13:
   version "4.3.2"
   resolved "https://registry.npmmirror.com/stylis/-/stylis-4.3.2.tgz"
@@ -2277,6 +3846,11 @@ ts-api-utils@^1.3.0:
   resolved "https://registry.npmmirror.com/ts-api-utils/-/ts-api-utils-1.3.0.tgz"
   integrity sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==
 
+tslib@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.npmmirror.com/type-check/-/type-check-0.4.0.tgz"
@@ -2313,6 +3887,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.npmmirror.com/uuid/-/uuid-8.3.2.tgz"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 "vite@^4 || ^5", "vite@^4.2.0 || ^5.0.0", vite@^5.2.0:
   version "5.2.11"
