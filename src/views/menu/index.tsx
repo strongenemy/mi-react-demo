@@ -1,10 +1,11 @@
 import React from "react"
 import { Link, useNavigate } from "react-router-dom"
-import { Button } from '@hi-ui/hiui'
+import { ButtonGroup, Button } from "@hi-ui/button"
 import { HomeOutlined } from "@hi-ui/icons"
 import About from "../About"
 import Fibonacci from '../Fibonacci'
 import HorizontalCenter from '../HorizontalCenter'
+import './index.scss'
 
 const Menu = () => {
   const navigate = useNavigate()
@@ -13,7 +14,7 @@ const Menu = () => {
             id:0,
             icon: <HomeOutlined />,
           title: "首页",
-          path: "/app",
+          path: "/home",
         },
         {
             id:1,
@@ -37,10 +38,12 @@ const Menu = () => {
       ]
       
     return (
-        <div>
+        <div className="menu">
+             <ButtonGroup style={{ marginRight: 20 }}>
             {linkData.map((items)=>{
-             return <Button onClick={() => navigate(`${items?.path}`)} key={items.id}>{items.title}</Button>
+             return <Button type="primary" onClick={() => navigate(`${items?.path}`)} key={items.id}>{items.title}</Button>
             })}
+             </ButtonGroup>
         </div>
     )
   }
