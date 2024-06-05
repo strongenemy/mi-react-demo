@@ -1,0 +1,127 @@
+.title {
+    height: 80px;
+    line-height: 40x;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.mainContent{
+    padding: 20px;
+
+    .hi-v4-grid-row {
+        margin-bottom: 40px;
+    }
+
+    .hi-v4-collapse-panel__title{
+        width: 100%;
+        display: flex;
+
+        .disTitle {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+.wayTitle{
+    height: 32px;
+    line-height: 32x;
+}
+.info{
+    text-align: left;
+    text-indent: 2em;
+}
+.wayContent {
+    width: 100%;
+
+    .father {
+        border: 1px solid black;
+        background-color: #ccc;
+        width: calc(100% - 2px);
+        height: 200px;
+    }
+
+    .son {
+        color: white;
+        background-color: #ddeef8;
+        width: 200px;
+        height: 120px;
+        overflow: auto;
+    }
+
+    .way1father {
+        position: relative;
+
+        .way1son {
+            position: absolute;
+            margin: auto;
+            left: 0; right: 0; top: 0; bottom: 0;
+        }
+    }
+    .way2father {
+        position: relative;
+
+        .way2son {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -100px; /* (width + padding)/2 */
+            margin-top: -60px; /* (height + padding)/2 */
+        }
+    }
+    .way3father {
+        position: relative;
+
+        .way3son {
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            // -webkit-transform: translate(-50%, -50%);
+            // -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    }
+    .way4father {
+        display: table;
+
+        .subway4son {
+            display:table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .way4son{
+            margin: auto;
+            overflow-wrap: break-word;
+            height: auto;
+            height: 120px;
+            width: 200px;
+        }
+    }
+    .way5father {
+        text-align: center;
+        overflow: visible;
+
+        &::before {
+            content: '伪元素（文字水平居中）';
+            background-color: #fbecc5;
+            display: inline-block;
+            vertical-align: middle;
+            height: 40px;
+            width: 100%;
+            line-height: 40px;
+            text-align: center;
+        }
+        .way5son{
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    .way6father {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

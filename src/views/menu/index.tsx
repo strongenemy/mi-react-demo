@@ -1,11 +1,11 @@
 import React from "react"
 import { Link, useNavigate } from "react-router-dom"
+import './index.scss'
 import { ButtonGroup, Button } from "@hi-ui/button"
 import { HomeOutlined } from "@hi-ui/icons"
 import About from "../About"
 import Fibonacci from '../Fibonacci'
 import HorizontalCenter from '../HorizontalCenter'
-import './index.scss'
 
 const Menu = () => {
   const navigate = useNavigate()
@@ -25,10 +25,9 @@ const Menu = () => {
         {
             id:2,
           icon: <HorizontalCenter />,
-          title: "css实现水平垂直居中",
+          title: "css水平垂直居中",
           path: "/horizontalcenter",
         },
-        
         {
             id:3,
           icon: <About />,
@@ -36,7 +35,6 @@ const Menu = () => {
           path: "/about",
         },
       ]
-      
     return (
         <div className="menu">
              <ButtonGroup style={{ marginRight: 20 }}>
@@ -47,5 +45,4 @@ const Menu = () => {
         </div>
     )
   }
-  
   export default Menu

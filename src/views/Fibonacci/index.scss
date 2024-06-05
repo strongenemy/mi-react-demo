@@ -1,0 +1,49 @@
+.fibonacci {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__table {
+    .hi-table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th,
+      td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+      }
+
+      th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f8f8f8;
+      }
+    }
+  }
+
+  &__result {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+    cursor: pointer;
+
+    &:hover {
+      overflow: visible;
+      white-space: normal;
+      word-break: break-all;
+    }
+  }
+}
