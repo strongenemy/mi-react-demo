@@ -1,0 +1,147 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chat-window {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px 0 20px 20px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  // background-color: #f5f5f5;
+
+  .hi-v4-scrollbar__wrapper {
+    width:  calc(100% - 20px) !important;
+    height: 100% !important;
+  }
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+  padding-right: 20px;
+
+  .msgItem {
+    display: flex;
+    align-items: flex-start; /* 让消息气泡框顶部对齐 */
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* 让消息框能够自动换行 */
+
+    &.user1 {
+      flex-direction: row-reverse;
+    }
+
+    &.user2 {
+      justify-content: flex-start;
+    }
+
+    .userImg {
+      width: 50px;
+      height: 50px;
+
+      &.user1 {
+        margin-left: 20px;
+      }
+
+      &.user2 {
+        margin-right: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* 根据容器大小裁剪图像 */
+        // border-radius: 50%; /* 可选：如果你希望图像为圆形 */
+      }
+    }
+  }
+
+  .bubble {
+    background-color: #f0f0f0; /* 默认灰色背景 */
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    max-width: calc(100% - 160px); /* 考虑到头像的宽度 */
+
+    &.user1 {
+      background-color: #97ec6b; /* 绿色背景 */
+      align-self: flex-end; /* 让自己发送的消息气泡框在右侧 */
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%; /* 使尖角垂直居中 */
+        right: -20px; /* 尖角离气泡框的距离 */
+        border: 12px solid transparent; /* 尖角大小 */
+        border-left-color: #97ec6b; /* 三角形颜色 */
+        transform: translateY(-50%);
+      }
+    }
+
+    &.user2 {
+      align-self: flex-start; /* 让他人发送的消息气泡框在左侧 */
+      margin-right: auto; /* 让消息框左对齐 */
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: calc(50% - 12px); /* 使尖角垂直居中 */
+        left: -20px; /* 尖角离气泡框的距离 */
+        border: 12px solid transparent; /* 尖角大小 */
+        border-right-color: #f0f0f0; /* 三角形颜色 */
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .msg {
+    word-wrap: break-word;
+    text-align: left;
+  }
+}
+
+
+
+
+.sender {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.chatbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+
+  input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

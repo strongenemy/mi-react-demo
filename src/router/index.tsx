@@ -1,6 +1,8 @@
 import About from '../views/About'
 import NotFound from '../views/NotFound'
 import Fibonacci from '../views/Fibonacci'
+import Chat from '../views/Chat'
+import ChatApp from '@/views/ChatApp'
 import HorizontalCenter from '../views/HorizontalCenter'
 import App from '../App'
 import { createBrowserRouter} from 'react-router-dom'
@@ -26,7 +28,15 @@ const router = createBrowserRouter([
       },
       {
         path: 'horizontalcenter',
-        element: < HorizontalCenter />
+        element: <HorizontalCenter />
+      },
+      {
+        path: 'chat',
+        element: <Chat />
+      },
+      {
+        path: 'chatApp',
+        element: <ChatApp />
       },
       {
         path: 'about',

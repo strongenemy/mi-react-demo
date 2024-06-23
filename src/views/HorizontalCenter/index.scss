@@ -107,10 +107,10 @@
             content: '伪元素（文字水平居中）';
             background-color: #fbecc5;
             display: inline-block;
-            vertical-align: middle;
-            height: 40px;
+            vertical-align: middle;  //将这些元素的中线与其父元素的字体中线对齐
+            height: 40px;  // 伪元素的高度为 40 像素。
             width: 100%;
-            line-height: 40px;
+            line-height: 40px;  // 行高设置为 40 像素，使伪元素内部的文本在垂直方向上居中。
             text-align: center;
         }
         .way5son{

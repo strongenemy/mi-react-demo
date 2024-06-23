@@ -88,8 +88,8 @@ const HorizontalCenter = () => {
               </Collapse>
             </div>
           </Col>
-
           </Row>
+
           <Row gutter={true}>
           <Col span={8}>
             <div className="wayTitle">方式4：display：tabel</div>
@@ -125,7 +125,7 @@ const HorizontalCenter = () => {
             <div className="wayInfo">
               <Collapse defaultActiveId={["0" , "1", "2"]} arrowPlacement="left">
               <Collapse.Panel title="原理" id="0">
-                  <div className="info">利用inline-block的vertical-align: middle去对齐after伪元素，after伪元素的高度与父对象一样，就实现了高度方向的对齐。</div>
+                  <div className="info">利用inline-block的vertical-align: middle去对齐after伪元素</div>
                 </Collapse.Panel>
                 <Collapse.Panel title="优点" id="1">
                   <div className="info">该方案实现效果更加好，居中块的尺寸可以做包裹性、自适应内容，兼容性也相当好。</div>
