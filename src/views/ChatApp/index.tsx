@@ -67,6 +67,8 @@ const ChatBox = ({ sender, onSendMessage }: { sender: string, onSendMessage: Sen
 };
 
 
+
+
 const ChatApp = () => {
   const [messages, setMessages] = useState<msgItem[]>([]);
 
@@ -74,12 +76,16 @@ const ChatApp = () => {
     setMessages([...messages , { sender, content } as msgItem]);
   };
 
+  const list = [0,1,2]
+  list.map((i)=> i)
+
   return (
     <div className="chat">
       <div className="chat-window">
         <Scrollbar axes={"y"}>
           {messages.map((msg, index) => (
             <Message key={index} sender={msg?.sender as string} content={msg?.content as string} />
+            // <div>{msg}</div>
           ))}
         </Scrollbar>
       </div>

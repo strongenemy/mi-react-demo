@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Table from "@hi-ui/table";
 import './index.scss';
 
@@ -82,6 +82,7 @@ const Fibonacci = () => {
         } else {
           for (let i = 2; i <= n; i++) {
             if (!(i in cache)) {
+            // 普通递归计算
               cache[i] = (BigInt(cache[i - 1]) + BigInt(cache[i - 2])).toString();
             }
           }
@@ -92,7 +93,6 @@ const Fibonacci = () => {
         return { result, timeTaken };
       };
     })();
-
     const { result: recursive, timeTaken: recursiveTime } = fibonacciRecursive(10);
     const { result: loop, timeTaken: loopTime } = fibonacciLoop(10000);
     const { result: iterative, timeTaken: iterativeTime } = fibonacciIterative(10000);

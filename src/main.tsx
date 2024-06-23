@@ -7,13 +7,13 @@ import router from './router/index.tsx'
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-  
+
      {/* <App /> */}
-     {/* 路由绑定 */}
      <RouterProvider router={router}></RouterProvider>
-  
+
   </React.StrictMode>,
 )
 
