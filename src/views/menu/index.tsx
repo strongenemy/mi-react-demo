@@ -1,12 +1,11 @@
 import React from "react"
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import './index.scss'
 import { ButtonGroup, Button } from "@hi-ui/button"
 import { HomeOutlined } from "@hi-ui/icons"
-import About from "../About"
 import Fibonacci from '../Fibonacci'
 import HorizontalCenter from '../HorizontalCenter'
-import Chat from '../Chat'
+import Todos_with_Undo from '../Todos_with_Undo'
 import ChatApp from '../ChatApp'
 
 const Menu = () => {
@@ -31,16 +30,16 @@ const Menu = () => {
           path: "/horizontalcenter",
         },
         {
-          id:3,
-          icon: <Chat />,
+            id:3,
+          icon: <ChatApp />,
           title: "微信群聊",
-          path: "/chat",
+          path: "/chatApp",
         },
         {
-            id:4,
-          icon: <ChatApp />,
-          title: "消息列表",
-          path: "/chatApp",
+          id:4,
+          icon: <Todos_with_Undo />,
+          title: "待办事项",
+          path: "/Todos_with_Undo",
         },
       ]
     return (

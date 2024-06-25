@@ -1,7 +1,7 @@
 import About from '../views/About'
 import NotFound from '../views/NotFound'
 import Fibonacci from '../views/Fibonacci'
-import Chat from '../views/Chat'
+import TodoWithUndo from '../views/Todos_with_Undo'
 import ChatApp from '@/views/ChatApp'
 import HorizontalCenter from '../views/HorizontalCenter'
 import App from '../App'
@@ -31,12 +31,12 @@ const router = createBrowserRouter([
         element: <HorizontalCenter />
       },
       {
-        path: 'chat',
-        element: <Chat />
-      },
-      {
         path: 'chatApp',
         element: <ChatApp />
+      },
+      {
+        path: 'todos_with_Undo',
+        element: <TodoWithUndo />
       },
       {
         path: 'about',
