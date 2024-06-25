@@ -1,0 +1,33 @@
+.todo {
+  .add-todo {
+    text-align: left;
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input {
+      margin-bottom: 10px;
+    }
+  }
+
+  .todo-list {
+    .active {
+      color: green;
+    }
+    .done {
+      color: blue;
+    }
+    .close {
+      color: red;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+    }
+  }
+}
