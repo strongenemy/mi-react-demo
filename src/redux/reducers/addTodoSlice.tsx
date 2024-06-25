@@ -27,8 +27,6 @@ export const counterSlice = createSlice({
         state: "active"
       };
       state.todoList.push(newTodo);
-
-
     },
     setState: (state, action: PayloadAction<{ id: number, newState: 'active' | 'done' | 'close' }>) => {
       const { id, newState } = action.payload;

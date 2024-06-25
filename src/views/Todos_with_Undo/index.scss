@@ -1,16 +1,23 @@
 .todo {
+  padding: 10px;
   .add-todo {
     text-align: left;
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    input {
-      margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    .input-basic__wrap {
+      width: 480px;
+      padding: 10px 20px 10px 0;
     }
   }
 
   .todo-list {
+    width: 600px;
+    .filter-state {
+      margin-bottom: 10px;
+      .hi-v4-radio {
+        width: 80px;
+      }
+    }
     .active {
       color: green;
     }

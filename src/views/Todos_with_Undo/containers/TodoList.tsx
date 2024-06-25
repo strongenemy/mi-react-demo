@@ -2,13 +2,16 @@ import { setState } from '@/redux/reducers/addTodoSlice';
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Button from "@hi-ui/button"
+import { Radio } from "@hi-ui/radio"
+import Tag from "@hi-ui/tag"
+import Table from "@hi-ui/table"
 
 const TodoList: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'active' | 'done' | 'close'>('all');
-  const todoList = useSelector((state) => state.addTodo.todoList);
+  const todoList = useSelector((state: any) => state.addTodo.todoList);
   const dispatch = useDispatch();
 
-  const filteredTodos = filter === 'all' ? todoList : todoList.filter(todo => todo.state === filter);
+  const filteredTodos = filter === 'all' ? todoList : todoList.filter((todo: any) => todo.state === filter);
 
   const handleStateChange = (id: number, newState: 'active' | 'done' | 'close') => {
     dispatch(setState({ id, newState }));
@@ -21,45 +24,56 @@ const TodoList: React.FC = () => {
     { value: 'close', label: 'Close' },
   ];
 
+  const columns = [
+    {
+      title: "Content",
+      dataKey: "content",
+      width: 150
+    },
+    {
+      title: "State",
+      dataKey: "state",
+      render: (text: string) => (
+        <Tag type={text === 'active' ? "success" : text === 'close' ? "danger" : "default"}>{text}</Tag>
+      ),
+      width: 100
+    },
+    {
+      title: "Actions",
+      dataKey: "actions",
+      render: (text: any, row: any) => (
+        <div>
+          <Button type="success" disabled={row.state === 'active'} onClick={() => handleStateChange(row.id, 'active')}>Set Active</Button>
+          <Button type="default" disabled={row.state === 'done'} onClick={() => handleStateChange(row.id, 'done')}>Set Done</Button>
+          <Button type="danger" disabled={row.state === 'close'} onClick={() => handleStateChange(row.id, 'close')}>Set Close</Button>
+        </div>
+      ),
+      width: 300
+    },
+  ];
+
+  const data = filteredTodos.map((todo: any) => ({
+    ...todo,
+    key: todo.id,
+  }));
+
   return (
     <div className="todo-list">
-      <div>
+      <div className='filter-state'>
         {radioList.map((item) => (
-          <label key={item.value}>
-            <input
-              type="radio"
-              value={item.value}
-              checked={filter === item.value}
-              onChange={() => setFilter(item.value as 'all' | 'active' | 'done' | 'close')}
-            />
+          <Radio
+            key={item.value}
+            value={item.value}
+            checked={filter === item.value}
+            onChange={() => setFilter(item.value as 'all' | 'active' | 'done' | 'close')}>
             {item.label}
-          </label>
+          </Radio>
         ))}
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Content</th>
-            <th>State</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredTodos.map(todo => (
-            <tr key={todo.id}>
-              <td>{todo.content}</td>
-              <td>
-                <span className={`tag ${todo.state}`}>{todo.state}</span>
-              </td>
-              <td>
-                <Button type="success" disabled={todo.state === 'active'} onClick={() => handleStateChange(todo.id, 'active')}>Set Active</Button>
-                <Button type="default" disabled={todo.state === 'done'} onClick={() => handleStateChange(todo.id, 'done')}>Set Done</Button>
-                <Button type="danger" disabled={todo.state === 'close'} onClick={() => handleStateChange(todo.id, 'close')}>Set Close</Button>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <Table
+        columns={columns}
+        data={data}
+      />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import { useDispatch } from "react-redux";
 import { add } from '@/redux/reducers/addTodoSlice';
 import Button from "@hi-ui/button"
@@ -19,16 +19,17 @@ export function Addtodo(){
   };
   return (
     <div className="add-todo">
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
+      <div className="input-basic__wrap">
+        <Input
+          placeholder="请输入"
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
-        <Button type="primary" size="lg">
+          onChange={(evt: ChangeEvent<HTMLInputElement>, value: string) => {
+            setInputValue(value)
+          }} />
+       </div>
+        <Button type="primary" size="lg" onClick={handleSubmit} style={{width:'100px'}}>
           Add Todo
         </Button>
-      </form>
     </div>
   );
 }
