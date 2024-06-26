@@ -1,4 +1,4 @@
-import { setState } from '@/redux/reducers/addTodoSlice';
+import { setState, undo, redo } from '@/redux/reducers/addTodoSlice';
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Button from "@hi-ui/button"
@@ -9,12 +9,22 @@ import Table from "@hi-ui/table"
 const TodoList: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'active' | 'done' | 'close'>('all');
   const todoList = useSelector((state: any) => state.addTodo.todoList);
+  const actionNumber = useSelector((state: any) => state.addTodo.actionNumber);
+  const actionItem = useSelector((state: any) => state.addTodo.actionItem);
   const dispatch = useDispatch();
 
   const filteredTodos = filter === 'all' ? todoList : todoList.filter((todo: any) => todo.state === filter);
 
   const handleStateChange = (id: number, newState: 'active' | 'done' | 'close') => {
     dispatch(setState({ id, newState }));
+  };
+
+  const handleUndo = () => {
+    dispatch(undo());
+  };
+
+  const handleRedo = () => {
+    dispatch(redo());
   };
 
   const radioList = [
@@ -25,6 +35,11 @@ const TodoList: React.FC = () => {
   ];
 
   const columns = [
+    // {
+    //   title: "id",
+    //   dataKey: "id",
+    //   width: 50
+    // },
     {
       title: "Content",
       dataKey: "content",
@@ -60,15 +75,21 @@ const TodoList: React.FC = () => {
   return (
     <div className="todo-list">
       <div className='filter-state'>
-        {radioList.map((item) => (
-          <Radio
-            key={item.value}
-            value={item.value}
-            checked={filter === item.value}
-            onChange={() => setFilter(item.value as 'all' | 'active' | 'done' | 'close')}>
-            {item.label}
-          </Radio>
-        ))}
+        <div>
+          {radioList.map((item) => (
+            <Radio
+              key={item.value}
+              value={item.value}
+              checked={filter === item.value}
+              onChange={() => setFilter(item.value as 'all' | 'active' | 'done' | 'close')}>
+              {item.label}
+            </Radio>
+          ))}
+        </div>
+        <div className="actions">
+          <Button key='undo' disabled={actionNumber <= 0}  type="primary" onClick={handleUndo}>Undo</Button>
+          <Button key='redo' disabled={actionNumber >= actionItem.length - 1} type="primary" onClick={handleRedo}>Redo</Button>
+        </div>
       </div>
       <Table
         columns={columns}
